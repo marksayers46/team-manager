@@ -25,13 +25,16 @@ nav .logo-controls {
 
 nav .logo-container img {
     width: 30px;
+    cursor: pointer;
 }
 
 nav .icon {
     color:rgba(255, 255, 255);
     font-size: 30px;
+    cursor: pointer;
 }
 
+/* Dashboard */
 .dashboard {
     padding: 10px 50px;
     width: 100%;
@@ -40,6 +43,12 @@ nav .icon {
 .dashboard .ticket-container {
     height: 80vh;
     overflow: scroll;
+}
+
+/* TicketCard */
+.ticket-card {
+    display: flex;
+    width: 100%;
 }
 
 
