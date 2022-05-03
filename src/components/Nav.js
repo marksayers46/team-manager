@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import logo from '../images/logo.png'
+import logo from '../images/crm-logo.png'
 
 const Nav = () => {
 

@@ -5,21 +5,42 @@ html, body {
 }
 
 .app {
-    display: flex;
+   display: flex; 
 }
 
 /* Nav */
 nav {
-
+    height: 100vh;
+    background-color: rgba(43, 43, 63);
+    color: rgba(255, 255, 255);
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.logo-container img{
-    height: 60px;
-    width: 60px;
-    border: 2px solid #548533;
-    border-radius: 50%;
+nav .logo-container,
+nav .logo-controls {
+    padding: 40px 25px;
 }
 
-.icon {
-    font-size: 35px;
+nav .logo-container img {
+    width: 30px;
 }
+
+nav .icon {
+    color:rgba(255, 255, 255);
+    font-size: 30px;
+}
+
+.dashboard {
+    padding: 10px 50px;
+    width: 100%;
+}
+
+.dashboard .ticket-container {
+    height: 80vh;
+    overflow: scroll;
+}
+
+
+

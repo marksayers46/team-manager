@@ -1,7 +1,7 @@
 
 const TicketCard = () => {
   return (
-    <div>TicketCard</div>
+    <div className="ticket-card"></div>
   )
 }
 
