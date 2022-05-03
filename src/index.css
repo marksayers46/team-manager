@@ -9,13 +9,17 @@ html, body {
 }
 
 /* Nav */
-
 nav {
 
 }
 
 .logo-container img{
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #548533;
     border-radius: 50%;
+}
+
+.icon {
+    font-size: 35px;
 }
