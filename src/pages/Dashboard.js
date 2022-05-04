@@ -66,13 +66,12 @@ const Dashboard = () => {
     <div className="dashboard">
       <h1>My Projects</h1>
       <div className="ticket-container">
-        {tickets && uniqueCategories?.map((uniqueCategory, uniqueIndex) => (
-          <div>
+        {tickets && uniqueCategories?.map((uniqueCategory, categoryIndex) => (
+          <div key={categoryIndex}>
             <h3>{uniqueCategory}</h3>
           </div>
         ))}
       </div>
-      <TicketCard />
     </div>
   )
 }
