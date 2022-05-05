@@ -1,5 +1,5 @@
 
-const ProgressDisplay = () => {
+const ProgressDisplay = ({ progress }) => {
   return (
     <div>ProgressDisplay</div>
   )
