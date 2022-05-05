@@ -57,5 +57,23 @@ nav .icon {
     width: 100%;
 }
 
+.ticket-card #link {
+    display: flex;
+    width: 100%;
+}
+
+.ticket-card #link > * {
+    background-color: rgba(221, 221, 221);
+    margin: 2px;
+    padding: 30px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+
 
 
