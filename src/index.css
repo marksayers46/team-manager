@@ -93,6 +93,10 @@ nav .icon {
     width: 100%;  
 }
 
+.ticket-card .status-display {
+    display: flex;
+    justify-content: center;
+}
 
 
 
