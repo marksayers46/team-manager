@@ -35,7 +35,7 @@ const tickets = [
     owner: 'Mark Sayers',
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
     status: 'stuck',
-    priority: 10,
+    priority: 3,
     progress: 6,
     description:
       'Share my top tools for 2022 with everyone in a 15 minute video.',
@@ -48,7 +48,7 @@ const tickets = [
     owner: 'Mark Sayers',
     avatar: null,
     status: '',
-    priority: 2,
+    priority: 0,
     progress: 0,
     description:
       'Make a video showing how to build the popular retro game Frogger in React.',

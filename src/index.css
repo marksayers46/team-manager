@@ -8,6 +8,13 @@ html, body {
     display: flex;
 }
 
+
+#link {
+    text-decoration: none;
+    color: rgb(46,46,46);
+}
+
+
 /* Nav */
 nav {
     height: 100vh;
@@ -36,6 +43,7 @@ nav .icon {
     margin-bottom: 40px;
 }
 
+
 /* Dashboard */
 .dashboard {
     padding: 10px 50px;
@@ -46,9 +54,6 @@ nav .icon {
     height: 80vh;
     overflow: scroll;
 }
-
-/* Dashboard */
-
 
 
 /* TicketCard */
@@ -94,6 +99,16 @@ nav .icon {
 }
 
 .ticket-card .status-display {
+    display: flex;
+    justify-content: center;
+}
+
+.ticket-container .priority-container {
+    display: flex;
+    justify-content: center;
+}
+
+.ticket-card .star-container {
     display: flex;
     justify-content: center;
 }
