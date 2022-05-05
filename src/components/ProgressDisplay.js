@@ -4,7 +4,7 @@ const ProgressDisplay = ({ progress }) => {
     <div className='progress-container'>
       <div className='progress-bar'>
         <label htmlFor=""></label>
-        <progress></progress>
+        <progress value={progress}></progress>
       </div>
     </div>
   )
