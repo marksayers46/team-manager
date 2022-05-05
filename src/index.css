@@ -71,7 +71,27 @@ nav .icon {
     display: flex;
 }
 
+.ticket-card .ticket-color {
+    width: 15px !important;
+    padding: 10px !important;
+}
 
+.ticket-card .avatar-container {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}
+
+.ticket-card .img-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    overflow: hidden;  
+}
+
+.ticket-card .img-container img {
+    width: 100%;  
+}
 
 
 
