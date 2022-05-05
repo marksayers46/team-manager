@@ -103,15 +103,21 @@ nav .icon {
     justify-content: center;
 }
 
-.ticket-container .priority-container {
+.ticket-card .priority-container {
     display: flex;
     justify-content: center;
 }
 
 .ticket-card .star-container {
     display: flex;
-    justify-content: center;
 }
+
+.ticket-card .priority-container .star-container h3 {
+    padding: 3px;
+}
+
+
+
 
 
 

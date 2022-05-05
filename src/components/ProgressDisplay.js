@@ -1,7 +1,12 @@
 
 const ProgressDisplay = ({ progress }) => {
   return (
-    <div>ProgressDisplay</div>
+    <div className='progress-container'>
+      <div className='progress-bar'>
+        <label htmlFor=""></label>
+        <progress></progress>
+      </div>
+    </div>
   )
 }
 
