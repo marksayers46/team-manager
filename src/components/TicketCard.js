@@ -17,6 +17,7 @@ const TicketCard = ({ color, ticket }) => {
         <ProgressDisplay progress={ticket.progress}/>
       </Link>
       <DeleteBlock />
+      
     </div>
   )
 }
