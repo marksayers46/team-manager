@@ -1,10 +1,12 @@
 
 const ProgressDisplay = ({ progress }) => {
   return (
-    <div className='progress-container'>
+    <div className='progress-display'>
       <div className='progress-bar'>
-        <label htmlFor=""></label>
-        <progress value={progress}></progress>
+        <div
+          style={{width: progress + '%'}}
+          className="progress-indicator"
+        ></div>
       </div>
     </div>
   )

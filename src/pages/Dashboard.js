@@ -10,7 +10,7 @@ const tickets = [
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
     status: 'done',
     priority: 5,
-    progress: 40,
+    progress: 100,
     description:
       'Make a video showcasing how to work with NFTs safely, including how to know if one is not genuine.',
     timestamp: '2022-02-11T07:36:17+0000',
@@ -23,7 +23,7 @@ const tickets = [
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
     status: 'working on it',
     priority: 4,
-    progress: 2,
+    progress: 45,
     description:
       'Show how easy it is to work with machine Learning and show people how to make money by building and selling an AI API',
     timestamp: '2022-02-13T07:36:17+0000',
@@ -36,7 +36,7 @@ const tickets = [
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
     status: 'stuck',
     priority: 3,
-    progress: 6,
+    progress: 85,
     description:
       'Share my top tools for 2022 with everyone in a 15 minute video.',
     timestamp: '2022-02-16T07:36:17+0000',
