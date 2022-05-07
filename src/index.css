@@ -136,7 +136,7 @@ nav .icon {
 .ticket-card .delete-block {
     background-color: rgb(221,221,221);
     margin: 2px;
-    padding: 15px;
+    min-width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,6 +144,13 @@ nav .icon {
 
 .ticket-card .delete-block .delete-icon {
     cursor: pointer;
-    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(61,61,61);
+    border-radius: 50%;
     font-weight: bold;
+    color: rgb(255,255,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
