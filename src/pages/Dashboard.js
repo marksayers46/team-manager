@@ -23,7 +23,7 @@ const tickets = [
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
     status: 'working on it',
     priority: 4,
-    progress: 45,
+    progress: 70,
     description:
       'Show how easy it is to work with machine Learning and show people how to make money by building and selling an AI API',
     timestamp: '2022-02-13T07:36:17+0000',
@@ -36,7 +36,7 @@ const tickets = [
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
     status: 'stuck',
     priority: 3,
-    progress: 85,
+    progress: 35,
     description:
       'Share my top tools for 2022 with everyone in a 15 minute video.',
     timestamp: '2022-02-16T07:36:17+0000',

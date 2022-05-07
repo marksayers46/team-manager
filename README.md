@@ -10,5 +10,5 @@ CRUD app for creating new tickets, edit existing tickets, and delete tickets.
 1. React.js
 2. Node.js
 3. Axios
-4. 
+4. Astra DB
 5.
