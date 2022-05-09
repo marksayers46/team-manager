@@ -76,6 +76,59 @@ console.log(formData)
               value={formData.category}
             />
 
+            <div className="multiple-input-container">
+            <label>Priority</label>
+              <input 
+                id="priority-1"
+                name="priority"
+                type="radio"
+                onChange={handleChange}
+                value={1}
+                checked={formData.priority === 1} 
+              />
+              <label htmlFor="priority-1">1</label>
+              
+              <input 
+                id="priority-2"
+                name="priority"
+                type="radio"
+                onChange={handleChange}
+                value={2}
+                checked={formData.priority === 2} 
+              />
+              <label htmlFor="priority-2">2</label>
+              
+              <input 
+                id="priority-3"
+                name="priority"
+                type="radio"
+                onChange={handleChange}
+                value={3}
+                checked={formData.priority === 3} 
+              />
+              <label htmlFor="priority-3">3</label>
+              
+              <input 
+                id="priority-4"
+                name="priority"
+                type="radio"
+                onChange={handleChange}
+                value={4}
+                checked={formData.priority === 4} 
+              />
+              <label htmlFor="priority-4">4</label>
+              
+              <input 
+                id="priority-5"
+                name="priority"
+                type="radio"
+                onChange={handleChange}
+                value={5}
+                checked={formData.priority === 5} 
+              />
+              <label htmlFor="priority-5">5</label>
+
+            </div>
 
           </section>
         </form>
