@@ -10,14 +10,24 @@ const TicketPage = () => {
 
 const editMode = false
 
+const categories = ['test1', 'test2', 'test3', 'test4', 'test5']
+
 const handleSubmit = (event) => {
   event.preventDefault()
   console.log('submitted')
 }
 
-const handleChange = () => {
-  console.log('changed')
+const handleChange = (e) => {
+  const value = e.target.value
+  const name = e.target.name 
+
+  setFormData((prevState) => ({
+    ...prevState,
+    [name]: value
+    })
+  )
 } 
+console.log(formData)
 
   return (
     <div className="ticket">
@@ -34,6 +44,39 @@ const handleChange = () => {
               required={true}
               value={formData.title}
             />
+
+            <label htmlFor="description">Description</label>
+            <input 
+              id="description"
+              type="text"
+              name="description"
+              onChange={handleChange}
+              required={true}
+              value={formData.description}
+            />
+
+            <label>Category</label>
+            <select 
+              name="category"
+              value={formData.category}
+              onChange={handleChange}
+            >
+              {categories?.map((category, _index) => (
+                <option key={_index} value={category}>{category}</option>
+              ))}
+            </select>
+
+            <label htmlFor="new-category">New Category</label>
+            <input 
+              id="new-category"
+              type="text"
+              name="category"
+              onChange={handleChange}
+              required={true}
+              value={formData.category}
+            />
+
+
           </section>
         </form>
       </div>
