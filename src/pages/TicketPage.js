@@ -10,7 +10,8 @@ const TicketPage = () => {
 
 const editMode = false
 
-const handleSubmit = () => {
+const handleSubmit = (event) => {
+  event.preventDefault()
   console.log('submitted')
 }
 
@@ -26,8 +27,8 @@ const handleChange = () => {
           <section>
             <label htmlFor="title">Title</label>
             <input 
-              type="text"
               id="title"
+              type="text"
               name="title"
               onChange={handleChange}
               required={true}
