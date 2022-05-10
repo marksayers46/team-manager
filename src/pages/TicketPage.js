@@ -10,10 +10,10 @@ const TicketPage = () => {
 
 const editMode = false
 
-const categories = ['test1', 'test2', 'test3', 'test4', 'test5']
+const categories = ['test1', 'test2', 'test3', 'test4']
 
-const handleSubmit = (event) => {
-  event.preventDefault()
+const handleSubmit = (e) => {
+  e.preventDefault()
   console.log('submitted')
 }
 
@@ -127,8 +127,18 @@ console.log(formData)
                 checked={formData.priority === 5} 
               />
               <label htmlFor="priority-5">5</label>
-
             </div>
+
+            <input
+              type="range"
+              id="progress"
+              name="progress"
+              value={formData.progress}
+              min="0"
+              max="100"
+              onChange={handleChange}
+            />
+            <label htmlFor="progress">Progress</label>
 
           </section>
         </form>
