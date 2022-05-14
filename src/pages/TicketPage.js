@@ -34,6 +34,7 @@ console.log(formData)
       <h1>{editMode ? 'Update Ticket' : 'Create Ticket'}</h1>
       <div className="ticket-container">
         <form onSubmit={handleSubmit}>
+
           <section>
             <label htmlFor="title">Title</label>
             <input 
@@ -128,7 +129,9 @@ console.log(formData)
               />
               <label htmlFor="priority-5">5</label>
             </div>
-
+            
+            {editMode &&
+            <>
             <input
               type="range"
               id="progress"
@@ -139,8 +142,32 @@ console.log(formData)
               onChange={handleChange}
             />
             <label htmlFor="progress">Progress</label>
+            
 
+            <label>Status</label>
+            <select
+              name="status"
+              value={formData.status}
+              handleChange={handleChange}
+            >
+              <option value="done">Done</option>
+              <option value="working on it">Working on it</option>
+              <option value="stuck">Stuck</option>
+              <option value="not started">Not Started</option>
+            </select>
+            </>
+            }
+
+            <input type="submit"/>
           </section>
+
+          <section>
+            <label htmlFor="owner">Owner</label>
+            <input 
+              
+            />
+          </section>
+
         </form>
       </div>
     </div>
