@@ -6,9 +6,12 @@ CRM tool for assigning tickets to individuals or teams. This tool can increase e
 ## Features
 CRUD app for creating new tickets, edit existing tickets, and delete tickets. I'm going to make this app a single sign on (SSO).
 
-## Stack
+## Stack & Dependencies
 1. React.js
 2. Node.js
 3. Axios
 4. Astra DB
-5.
+5. Express
+6. cors
+7. dotenv
+8. nodemon
