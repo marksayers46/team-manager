@@ -4,7 +4,7 @@ I'm starting out creating a CRM app. Down the road I will be adding the ability 
 CRM tool for assigning tickets to individuals or teams. This tool can increase efficiency and productivity while collaborating effectively.
 
 ## Features
-CRUD app for creating new tickets, edit existing tickets, and delete tickets.
+CRUD app for creating new tickets, edit existing tickets, and delete tickets. I'm going to make this app a single sign on (SSO).
 
 ## Stack
 1. React.js

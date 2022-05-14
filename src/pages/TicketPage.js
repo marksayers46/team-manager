@@ -164,7 +164,12 @@ console.log(formData)
           <section>
             <label htmlFor="owner">Owner</label>
             <input 
-              
+              id="owner"
+              name="owner"
+              type="text"
+              onChange={handleChange}
+              required={true}
+              value={formData.owner}
             />
           </section>
 
