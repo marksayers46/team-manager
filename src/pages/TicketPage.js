@@ -33,6 +33,7 @@ console.log(formData)
     <div className="ticket">
       <h1>{editMode ? 'Update Ticket' : 'Create Ticket'}</h1>
       <div className="ticket-container">
+        
         <form onSubmit={handleSubmit}>
 
           <section>
@@ -76,9 +77,9 @@ console.log(formData)
               required={true}
               value={formData.category}
             />
-
-            <div className="multiple-input-container">
+            
             <label>Priority</label>
+            <div className="multiple-input-container">
               <input 
                 id="priority-1"
                 name="priority"
@@ -171,6 +172,22 @@ console.log(formData)
               required={true}
               value={formData.owner}
             />
+
+            <label htmlFor="avatar">Avatar</label>
+            <input 
+            id="avatar"
+            type="url" 
+            name="avatar" 
+            onChange={handleChange}
+            value={formData.avatar}
+            required={true} 
+            />
+            <div className="img-preview">
+              {formData.avatar && (
+                <img src={formData.avatar} alt="image preview"/>
+              )}
+            </div>
+            
           </section>
 
         </form>
