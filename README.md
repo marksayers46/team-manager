@@ -19,5 +19,6 @@ CRUD app for creating new tickets, edit existing tickets, and delete tickets. I'
 
 ## User endpoints
 * POST - Create New Ticket <br />
-  endpoint: BaseURL/
-* 
+  endpoint: url/
+* POST - Update Tasks <br />
+  endpoint: url/

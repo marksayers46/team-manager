@@ -21,7 +21,6 @@ app.post('/tickets', async (req, res) => {
         },
         data: formData
     }
-    
     try {
         const response = await axios(url, options)
         res.status(200).json(response.data)
