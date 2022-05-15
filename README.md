@@ -12,6 +12,12 @@ CRUD app for creating new tickets, edit existing tickets, and delete tickets. I'
 3. Axios
 4. Astra DB
 5. Express
-6. cors
-7. dotenv
+6. CORS
+7. Dotenv
 8. nodemon
+
+
+## User endpoints
+> POST - Create New Ticket
+endpoint: BaseURL/
+>
