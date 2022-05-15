@@ -15,6 +15,7 @@ CRUD app for creating new tickets, edit existing tickets, and delete tickets. I'
 6. CORS
 7. Dotenv
 8. nodemon
+9. 
 
 
 ## User endpoints
