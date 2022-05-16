@@ -4,7 +4,7 @@ import TicketCard from '../components/TicketCard'
 const tickets = [
   {
     category: 'Q1 2022',
-    color: 'red',
+    color: "blue",
     title: 'NFT Safety 101 Video',
     owner: 'Mark Sayers',
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
