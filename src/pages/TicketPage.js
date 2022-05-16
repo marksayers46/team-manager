@@ -12,9 +12,9 @@ const editMode = false
 
 const categories = ['test1', 'test2', 'test3', 'test4']
 
-const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
   e.preventDefault()
-  console.log('submitted')
+  // console.log('submitted')
 }
 
 const handleChange = (e) => {
