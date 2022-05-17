@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import axios from 'axios'
 
 const TicketPage = () => {
   const [formData, setFormData] = useState({
@@ -8,12 +8,16 @@ const TicketPage = () => {
     timestamp: new Date().toISOString()
   })
 
-const editMode = false
+const editMode = true
 
 const categories = ['test1', 'test2', 'test3', 'test4']
 
 const handleSubmit = async (e) => {
   e.preventDefault()
+
+  if (!editMode) {
+
+  }
   // console.log('submitted')
 }
 
@@ -27,7 +31,7 @@ const handleChange = (e) => {
     })
   )
 } 
-console.log(formData)
+// console.log(formData)
 
   return (
     <div className="ticket">
@@ -133,6 +137,7 @@ console.log(formData)
             
             {editMode &&
             <>
+            <label htmlFor="progress">Progress</label>
             <input
               type="range"
               id="progress"
@@ -142,7 +147,6 @@ console.log(formData)
               max="100"
               onChange={handleChange}
             />
-            <label htmlFor="progress">Progress</label>
             
 
             <label>Status</label>
