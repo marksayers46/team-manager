@@ -8,10 +8,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-
 const url = 'https://e7994b8f-d826-44c5-a960-6f030f85bb51-southcentralus.apps.astra.datastax.com/api/rest/v2/namespaces/tickets/collections/tasks'
-const token = 'AstraCS:HwQithiZmequOLQnGnRRTtrr:7ecc7390f3acd47a308202ae7b8a330ec761f96ccfaf831ea2166453f3dd86c1'
-
+const token = 'AstraCS:FbQnCebZFLlqxnabbYXJKCsr:a1f1e405ee8a5f1202cfb0da6562a71c5b1d717ae950ae4d89395a3110088ccb'
 
 app.get('/tickets', async ( req, res) => {
     const options = {
@@ -53,4 +51,5 @@ app.post('/tickets', async (req, res) => {
     }
 })
 
+// listen comes with Expressjs 
 app.listen(PORT, () => console.log('server running on PORT ' + PORT))
