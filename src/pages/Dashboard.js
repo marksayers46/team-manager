@@ -2,11 +2,11 @@ import TicketCard from '../components/TicketCard'
 
 
 const colors = [
-  'rgb(255,179,186)',
+  'rgb(186,255,201)',
   'rgb(255,223,186)',
-  'rgb(255,255,186',
-  'rgb(186,255,201',
-  'rgb(186,255,255'
+  'rgb(186,255,255)',
+  'rgb(255,179,186)',
+  'rgb(255,255,186)',
 ]
 
 // dummy data
@@ -69,7 +69,7 @@ const tickets = [
 const uniqueCategories = [
   ...new Set(tickets?.map(({ category }) => category))
 ]
-console.log(uniqueCategories)
+console.log("Testing Categories:", uniqueCategories)
 
 const Dashboard = () => {
 
