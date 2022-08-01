@@ -9,7 +9,7 @@ const colors = [
   'rgb(255,255,186)',
 ]
 
-// dummy data
+// hardcoded dummy data
 const tickets = [
   {
     category: 'Q1 2022',

@@ -51,5 +51,5 @@ app.post('/tickets', async (req, res) => {
     }
 })
 
-// listen comes with Expressjs 
+// listen comes with Express.js 
 app.listen(PORT, () => console.log('server running on PORT ' + PORT))
