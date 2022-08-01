@@ -18,7 +18,7 @@ const tickets = [
     owner: 'Mark Sayers',
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
     status: 'done',
-    priority: 5,
+    priority: 2,
     progress: 100,
     description:
       'Control team projects & check/update status',
@@ -32,7 +32,7 @@ const tickets = [
     avatar: 'https://avatars.githubusercontent.com/u/50345632?v=4',
     status: 'stuck',
     priority: 4,
-    progress: 70,
+    progress: 55,
     description:
       'Not your every day todo list app, built to be more dynamically UI/UX friendly.',
     timestamp: '2022-02-13T07:36:17+0000',
@@ -57,7 +57,7 @@ const tickets = [
     owner: 'Mark Sayers',
     avatar: null,
     status: '',
-    priority: 0,
+    priority: 5,
     progress: 100,
     description:
       'Portfolio built with JavaScript/jQuery.',
